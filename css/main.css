@@ -1,0 +1,20 @@
+body{
+   background:red;
+}
+
+form{
+   display: table;
+}
+
+div{
+   display: table-row;
+}
+
+label, input{
+   display: table-cell;
+   margin-bottom: 50px;
+}
+
+label{
+   padding-right: 50px;
+}
