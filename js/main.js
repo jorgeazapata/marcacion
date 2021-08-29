@@ -1,13 +1,5 @@
-var pasillo;
-var lateral;
-var nivel;
+window.onload = inicio;
 
-var pasillo = 
-var lateral =
-var nivel =
-if ( pasillo >= 1 &&pasillo < 9)
- {
- 	alert(pasillo)
- }
- else if (lateral==derecho	|| lateral == izquierdo)
- 	
+function inicio(){
+    alert("¡BIENVENIDO!                                                                                                    Llena los datos y da click en ingrezar para completar el registro.");
+}
