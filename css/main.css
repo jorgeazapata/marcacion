@@ -58,3 +58,10 @@ label{
   -moz-border-radius: 10px;
   -webkit-border-radius: 20px;
 }
+.agrandar:hover {
+
+   width: 250px;
+   height: 180px;
+   box-shadow: 25px 0px 30px 0 #ADDD;
+
+}
