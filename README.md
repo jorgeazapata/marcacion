@@ -17,3 +17,4 @@ o filtros que el usuario dictamine como por ejemplo por pasillo, cuerpo o entrep
 # Integrantes de equipo
 
 ![Logo carulla](https://github.com/jorgeazapata/marcacion/blob/main/imgs/carulla.png)
+modelo Exito
