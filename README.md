@@ -13,3 +13,7 @@ o filtros que el usuario dictamine como por ejemplo por pasillo, cuerpo o entrep
 - Cuerpo:
 
 - Entrepaño:
+
+# Integrantes de equipo
+
+![Tux, the Linux mascot](/assets/images/tux.png)
