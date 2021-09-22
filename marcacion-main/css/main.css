@@ -1,0 +1,67 @@
+body{
+   background:#dfdee2;
+}
+
+form{
+   display: table;
+}
+
+div{
+   display: table-row;
+}
+
+label, input{
+   display: table-cell;
+   margin-bottom: 50px;
+}
+
+label{
+   padding-right: 50px;
+}
+.button {
+  background-color: blueviolet;
+  color: #FFFFFF;
+  float: left;
+  width: 650px;
+  height: 30px;
+  border-radius: 20px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 20px;
+}
+.pasillo {
+  background-color: darkslategrey;
+  color: #FFFFFF;
+  float: left;
+  width: 650px;
+  height: 30px;
+  border-radius: 20px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 20px;
+}
+.imprimir {
+  background-color: lightyellow;
+  color: darkblue;
+  float: left;
+  width: 250px;
+  height: 30px;
+  border-radius: 20px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 20px;
+}
+.cuerpo {
+  background-color: blueviolet;
+  color: #FFFFFF;
+  float: left;
+  width: 150px;
+  height: 100px;
+  border-radius: 20px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 20px;
+}
+.agrandar:hover {
+
+   width: 250px;
+   height: 180px;
+   box-shadow: 25px 0px 30px 0 #ADDD;
+
+}
