@@ -25,3 +25,4 @@ o filtros que el usuario dictamine como por ejemplo por pasillo, cuerpo o entrep
 - Jorge Andrés Zapata Rodríguez.
 
 ![Logo carulla](https://github.com/jorgeazapata/marcacion/blob/main/imgs/carulla.png)  ![Logo exito](https://github.com/jorgeazapata/marcacion/blob/main/imgs/exito.png)   ![Logo super inter](https://github.com/jorgeazapata/marcacion/blob/main/imgs/super_inter.png)   ![Logo surtimax](https://github.com/jorgeazapata/marcacion/blob/main/imgs/surtimax.png)
+https://youtu.be/3vpupYmG1cQ---tiendas inteligentes
