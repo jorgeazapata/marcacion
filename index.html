@@ -1,33 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>proyecto_marcacion</title>
-	<meta charset="utf-8">
-	<link href="css/main.css" rel="stylesheet"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/main.css" rel="stylesheet"/>
+    <link rel="shortcut icon" href="imgs/logopestana.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <title>Proyecto Marcación</title>
 </head>
 <body>
-	<img src="imgs/logo2.png" width="920" height="250"><h1>SISTEMA DE MARCACIÓN AUTOMÁTICO POR GÓNDOLA</h1>
-	    <br>
-        <br>
-        <br>
-	    <form action="" method="get" class="form-example">
-            <div class="form-example">
-                <label for="name">Ingresa tu nombre</label>
-                    <input type="name" name="name" id="name"required>
+    <header>
+        <center>
+            <div>
+                <img src="imgs/logo2.png" width="300" height="200"><h1>SISTEMA DE MARCACIÓN AUTOMÁTICO POR GÓNDOLA</h1>
             </div>
+        </center>
+    </header>
 
+    <br><br>
+    
+    <main>
+        <center>
+            <div class="container fluid">
+                <form action="" method="get" class="form-example">
+                    <div class="row-p2">
+                        <div class="col col-6">
+                            <label for="name">Ingresa tu nombre</label>
+                            <input class="form-control" type="text" name="nombre" id="nombre"required>
+                        </div>
+                    </div>
 
-            <div class="form-example">
-                <label for="name">Ingresa tu contraseña</label>
-                    <input type="password" name="password" id="password"required>
+                    <br><br>
+
+                    <div class="row-p2">
+                        <div class="col col-6">
+                            <label for="name">Ingresa tu contraseña</label>
+                            <input type="password" class="form-control" id="password"required>
+                        </div>
+                    </div>
+        
+        
+                    <a href="registro.html">Registrate</a> <br><br>
+                    <div class="form-example">
+                        <a href="seleccion_de_marca.html"><button type="button" class="btn btn-success">INGRESAR</button></a>
+                    </div>
             </div>
+        </form>
+        </center>
+    </main>
+    <footer>
 
-
-    <a href="registro.html">Registrate</a> <br><br>
-            <div class="form-example">
-                <a href="seleccion_de_marca.html"><input type="button" value="¡Ingresar!"></a>
-            </div>
-    </form>
+    </footer>
 
 </body>
 </html>
