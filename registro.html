@@ -1,61 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>proyecto_marcacion</title>
-	<meta charset="utf-8">
-	<link href="css/main.css" rel="stylesheet"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imgs/logopestana.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+	<title>REGISTRATE</title>
     <script src="js/main.js"> </script>
 </head>
-<body>
-	<img src="imgs/logo2.png" width="920" height="250"><h1>SISTTEMA DE MARCACIÓN AUTOMÁTICO POR GÓNDOLA</h1>
-	    <br><br>
-    <form action="" method="get" class="form-example">
-
-        <div class="form-registro">
-            <label for="name">Usuario</label>
-            <input type="name" name="name" id="name"required>
-        </div>
-        
-
-        <div class="form-registro">
-            <label for="name">Nombre</label>
-            <input type="name" name="name" id="name"required>
-        </div>
-        
-
-        <div class="form-registro">
-            <label for="name">Apellido</label>
-            <input type="name" name="name" id="name"required>
-        </div>
-
-
-        <div class="form-registro">
-            <label for="email">E-mail</label>
-            <input type="email" name="email" id="email"required>
-        </div>
-
-
-        <div class="form-registro">
-            <label for="name">Ingresa tu contraseña</label>
-            <input type="password" name="password" id="password"required>
-        </div>
-
-
-        <div class="form-registro">
-            <label for="name">Confirma tu contraseña</label>
-            <input type="password" name="password" id="password"required>
-        </div>
-
-
-        <h5>Al darle click en registrarse estás aceptando los<br>
-            términos y condiciones del servicio, además de la<br>
-            poltica de privacidad y tratamiento de datos <br>personales.</h5>
-
-        <div class="form-vinculo">
-            <a href="index.html"><input type="button" value="¡Ingresar!"></a>
-        </div>
-
-    </form>
-
-</body>
+    <body>
+        <header>
+            <center>
+                <div>
+                    <img src="imgs/logo2.png"  width="25%"><h1>SISTEMA DE MARCACIÓN AUTOMÁTICO POR GÓNDOLA</h1>
+                </div>
+            </center>
+        </header>    
+            <main>
+                <center>
+                    <div class="container fluid">
+                        <form action="" method="get" class="form-example">
+                            <div class="row-p2">
+                                <div class="col col-6">
+                                    <input type="name" placeholder="INGRESE SU CÉDULA" name="name" id="name"required>
+                                </div>
+                                    <br>        
+                                <div class="form-registro">
+                                    <input type="name" placeholder="INGRESE SU NOMBRE" name="name" id="name"required>
+                                </div>
+                                    <br>
+                                <div class="form-registro">
+                                    <input type="name" placeholder="INGRESE SUS APELLIDOS" name="name" id="name"required>
+                                </div>
+                                    <br>
+                                <div class="form-registro">
+                                    <input type="email" placeholder="INGRESE SU E-MAIL" name="email" id="email"required>
+                                </div>
+                                    <br>
+                                <div class="form-registro">
+                                    <input type="password" placeholder="INGRESE SU CONTRASEÑA" name="password" id="password"required>
+                                </div>
+                                    <br>
+                                <div class="form-registro">
+                                    <input type="password" placeholder="REPITA SU CONTRASEÑA" name="password" id="password"required>
+                                </div>
+                            </div>
+                        </form>
+                    </div>    
+                        <h5>Al darle click en registrarse estás aceptando los<br>
+                términos y condiciones del servicio, además de la<br>
+                poltica de privacidad y tratamiento de datos <br>personales.</h5>
+                    <div class="form-example">
+                        <a href="seleccion_de_marca.html"><button type="button" class="btn btn-success">INGRESAR</button></a>
+                    </div>
+            </center>
+        </main>
+    </body>
 </html>
