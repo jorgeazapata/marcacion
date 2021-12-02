@@ -32,3 +32,4 @@ modelo Exito
 ![Logo surtimax](https://github.com/jorgeazapata/marcacion/blob/main/imgs/surtimax.png)
 https://youtu.be/3vpupYmG1cQ---tiendas inteligentes
 
+02/12/2021
