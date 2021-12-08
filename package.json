@@ -1,0 +1,26 @@
+{
+  "name": "marcacion",
+  "version": "1.0.0",
+  "description": "Desarrollar una aplicacion web que nos permita agilizar este proceso mediante\r un método más ágil que el de la captura individual de PLU.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorgeazapata/marcacion.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jorgeazapata/marcacion/issues"
+  },
+  "homepage": "https://github.com/jorgeazapata/marcacion#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.1.0",
+    "nodemon": "^2.0.15"
+  }
+}
