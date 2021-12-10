@@ -1,24 +1,49 @@
 const express = require("express");
 const app = express();
 const port = 3000;
-const mongoose = require("mongoose");
+const mongoose =require("mongoose");
 
 mongoose.connect('mongodb://localhost:27017/marcacion');
 
-const Usuario = mongoose.model("Usuarios",{
+const Productos =mongoose.model("Productos",{
+	producto:String,
+	precio:Number,
 	nombre:String,
-	correo:String
+	marca:String,
+	umd:Number,
+	plu:Number
 });
 
-app.get("/", (req,res)=>{
-	console.log("Se le envia a la terminal de comandos");
-	res.send("<h1>hola mundo</h1>");
-	new Usuarios({
-		Usuario:"Neiry",
-		correo:-"neiry@gmail.com"
+app.get("/listar",(req,res)=>{
+
+	Productos.find((err,doc)=>{
+
+		console.log(doc);
+		console.log(doc[0]);
+		let html = "";
+		let producto;
+		for(var i in doc)
+		{
+			producto = doc[i];
+			html+=` <span>${producto.precio}</span>
+					<span>${producto.nombre}</span>
+					<span>${producto.marca}</span>
+					<span>${producto.umd}</span>
+					<span>${producto.plu}</span><br>`;
+		}
+		res.send(html);
+	});
+});
+
+app.get("/",(req,res)=>{
+	console.log("se le envia a la terminal de comandos");
+	res.send("<h1>Hola mundo</h1>");
+	new Productos({
+		producto:"chorizo económico",
+		precio:900
 	}).save().then(()=>console.log("Exito"));
 });
 
 app.listen(port,()=>{
-	console.log("Empezo el servidor");
+	console.log("empezo el servidor");
 });
