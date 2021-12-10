@@ -33,3 +33,4 @@ modelo Exito
 https://youtu.be/3vpupYmG1cQ---tiendas inteligentes
 
 02/12/2021
+se crea la base de datos
